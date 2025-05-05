@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Element</title>
+</head>
+<body>
+    <h1>HTML Elements</h1>
+
+    <h2>Links</h2>
+    <a href="https://www.google.com">Visit Google</a>
+
+    <h2>Student Details</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>14</td>
+            <td>8th</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>15</td>
+            <td>9th</td>
+        </tr>
+    </table>
+
+    <h2 id="contact_form">Contact Form</h2>
+    <form onsubmit="alert('Form submitted (demo only)'); return false;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

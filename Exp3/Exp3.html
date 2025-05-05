@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Map Example</title>
+</head>
+<body>
+    <h1>Technology Image Map</h1>
+    <p>Click on different areas of the image to learn more:</p>
+
+    <img src="images/exp4.jpg" alt="Technology Map" width="400" usemap="#tech-map">
+
+    <map name="tech-map">
+        <area shape="rect" coords="50,50,300,200" href="#ai-section" alt="AI and Machine Learning">
+        <area shape="circle" coords="500,150,100" href="#cloud-section" alt="Cloud Computing">
+     <!-- <area shape="poly" coords="300,250,400,300,500,250,400,200" href="#iot-section" alt="Internet of Things"> -->
+    </map>
+
+    <hr>
+
+    <div id="ai-section">
+        <h2>AI and Machine Learning</h2>
+        <p>Artificial Intelligence and Machine Learning are revolutionizing industries worldwide.</p>
+        <ul>
+            <li>Predictive Analytics</li>
+            <li>Natural Language Processing</li>
+            <li>Computer Vision</li>
+        </ul>
+    </div>
+
+</body>
+</html>

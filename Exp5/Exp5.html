@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button onclick="addToDisplay('sin(')" class="operator">sin</button>
+            <button onclick="addToDisplay('cos(')" class="operator">cos</button>
+            <button onclick="addToDisplay('tan(')" class="operator">tan</button>
+            <button onclick="addToDisplay('√(')" class="operator">√</button>
+            <button onclick="clearDisplay()" class="clear">C</button>
+
+            <button onclick="addToDisplay('(')">(</button>
+            <button onclick="addToDisplay(')')">)</button>
+            <button onclick="addToDisplay('^')" class="operator">^</button>
+            <button onclick="addToDisplay('log(')" class="operator">log</button>
+            <button onclick="backspace()" class="clear">⌫</button>
+
+            <button onclick="addToDisplay('7')">7</button>
+            <button onclick="addToDisplay('8')">8</button>
+            <button onclick="addToDisplay('9')">9</button>
+            <button onclick="addToDisplay('/')" class="operator">/</button>
+            <button onclick="addToDisplay('π')" class="operator">π</button>
+
+            <button onclick="addToDisplay('4')">4</button>
+            <button onclick="addToDisplay('5')">5</button>
+            <button onclick="addToDisplay('6')">6</button>
+            <button onclick="addToDisplay('*')" class="operator">×</button>
+            <button onclick="addToDisplay('e')" class="operator">e</button>
+
+            <button onclick="addToDisplay('1')">1</button>
+            <button onclick="addToDisplay('2')">2</button>
+            <button onclick="addToDisplay('3')">3</button>
+            <button onclick="addToDisplay('-')" class="operator">-</button>
+            <button onclick="calculate()" class="equals" style="grid-row: span 2">=</button>
+
+            <button onclick="addToDisplay('0')" style="grid-column: span 2">0</button>
+            <button onclick="addToDisplay('.')">.</button>
+            <button onclick="addToDisplay('+')" class="operator">+</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

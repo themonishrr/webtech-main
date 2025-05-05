@@ -1,0 +1,14 @@
+.external-style {
+    background-color: #e8f5e9;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid green;
+}
+
+.external-style h2 {
+    color: green;
+}
+
+.external-style p {
+    font-style: italic;
+}
